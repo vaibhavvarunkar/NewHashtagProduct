@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap')
+.input-tag {
+  background: white;
+  border: 1px solid #d6d6d6;
+  border-radius: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 5px 0;
+}
+
+.input-tag input {
+  border: none;
+  width: 20vw;
+  background: transparent;
+  outline: none;
+  font-size: medium;
+  margin: 0.2rem;
+}
+
+.input {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-box .save-btn {
+  width: 100%;
+  height: 2rem;
+  margin: 1rem 0;
+  background-color: #ff43ca !important;
+  border: none;
+  border-radius: 5px;
+  padding: auto 1rem !important;
+  color: white;
+}
+.input-tag__tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.input-tag__tags li {
+  align-items: center;
+  background: #ff43ca;
+  border-radius: 2px;
+  color: white;
+  display: flex;
+  font-weight: 300;
+  list-style: none;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 5px 10px;
+}
+
+.input-tag__tags li button {
+  align-items: center;
+  appearance: none;
+  background: #333333;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 12px;
+  height: 15px;
+  justify-content: center;
+  line-height: 0;
+  margin-left: 8px;
+  padding: 0;
+  transform: rotate(45deg);
+  width: 15px;
+}
+
+.input-tag__tags li.input-tag__tags__input {
+  background: none;
+  flex-grow: 1;
+  padding: 0;
+}
+
+/* //////////////////////////////////////////////// */
+.input .input-box {
+  width: 25%;
+  margin: 0 1rem;
+}
+
+.input-box h1 {
+  font-size: 18px;
+}
+
+.input-box h1 span {
+  position: relative;
+  right: -12rem;
+}
+
+.input-tag {
+  margin: 0 1rem;
+  background: #f8f8f9;
+  height: 123px;
+  padding: 1rem;
+  width: 1035px;
+}
+.titleInput {
+  width: 96%;
+  padding: 0.7rem 0.5rem;
+  height: 2rem;
+  background: #f8f8f9 !important;
+  border-radius: 5px;
+  border: none;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: black;
+}
+
+.goto {
+  list-style: none;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin-top: 3rem;
+  background-color: hotpink;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.main-div {
+  margin: 2rem;
+}
